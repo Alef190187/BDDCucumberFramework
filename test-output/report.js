@@ -163,9 +163,12 @@ formatter.step({
   "name": "user colse the browser",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "createNewContacts.user_is_already_on_the_login_page()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 12471227900,
+  "status": "passed"
 });
 formatter.match({});
 formatter.result({
@@ -175,29 +178,61 @@ formatter.match({});
 formatter.result({
   "status": "undefined"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "createNewContacts.user_clicks_on_login_button()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "createNewContacts.user_is_on_the_home_page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "CRMPRO",
+      "offset": 24
+    }
+  ],
+  "location": "createNewContacts.the_home_page_title_is()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
+});
+formatter.match({
+  "location": "createNewContacts.user_moves_to_contacts_link_and_clicks_on_new_contacts_link()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Khan",
+      "offset": 33
+    },
+    {
+      "val": "Hossain",
+      "offset": 44
+    },
+    {
+      "val": "QA",
+      "offset": 58
+    }
+  ],
+  "location": "createNewContacts.user_enters_contacts_details_as_and_and(String,String,String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "createNewContacts.user_colse_the_browser()"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 17,
@@ -261,9 +296,12 @@ formatter.step({
   "name": "user colse the browser",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "createNewContacts.user_is_already_on_the_login_page()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 10231557400,
+  "status": "passed"
 });
 formatter.match({});
 formatter.result({
@@ -273,28 +311,60 @@ formatter.match({});
 formatter.result({
   "status": "undefined"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "createNewContacts.user_clicks_on_login_button()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "createNewContacts.user_is_on_the_home_page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "CRMPRO",
+      "offset": 24
+    }
+  ],
+  "location": "createNewContacts.the_home_page_title_is()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
+});
+formatter.match({
+  "location": "createNewContacts.user_moves_to_contacts_link_and_clicks_on_new_contacts_link()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Alef",
+      "offset": 33
+    },
+    {
+      "val": "Uddin",
+      "offset": 44
+    },
+    {
+      "val": "QA Lead",
+      "offset": 56
+    }
+  ],
+  "location": "createNewContacts.user_enters_contacts_details_as_and_and(String,String,String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "createNewContacts.user_colse_the_browser()"
+});
+formatter.result({
+  "status": "skipped"
 });
 });

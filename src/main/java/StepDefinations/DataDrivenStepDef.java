@@ -11,7 +11,7 @@ import cucumber.api.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DataDrivenStepDef {
-WebDriver driver;
+/*WebDriver driver;
 	
 	@Given("^user is already on the login page$")
 	public void user_is_already_on_the_login_page()  {
@@ -53,6 +53,6 @@ WebDriver driver;
 	@Then("^user colse the browser$")
 	public void user_colse_the_browser() throws Throwable {
 	  // driver.close();
-	}
+	}*/
 
 }

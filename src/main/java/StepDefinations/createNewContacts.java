@@ -24,7 +24,7 @@ WebDriver driver;
 	}
 
 	@When("^title of the login page is \"([^\"]*)\"$")
-	public void title_of_the_login_page_is()  {
+	public void the_title_of_the_login_page_is(String arg1)  {
 		String title = driver.getTitle();
 		System.out.println("the title of the login page is==> " + title);
 		Assert.assertEquals("CRMPRO - CRM software for customer relationship management, sales, and support.", title);  
@@ -70,7 +70,7 @@ WebDriver driver;
 	
      
 	@Then("^user colse the browser$")
-	public void user_colse_the_browser() throws Throwable {
+	public void user_colse_the_browser() {
 	   driver.close();
 	}
 
